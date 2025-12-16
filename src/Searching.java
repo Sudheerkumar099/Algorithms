@@ -28,7 +28,7 @@ public class Searching<T> {
                 System.out.println(obj + " Found at :" + mid);
                 return mid;
             } else if (result > 0) {
-                high = mid - 1;
+                high = mid-1;
             } else {
                 low = mid + 1;
             }
